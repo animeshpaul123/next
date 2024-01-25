@@ -11,17 +11,17 @@ module.exports = {
   theme: {
     extend: {},
   },
-  // daisyui: {
-  //   themes: [
-  //     "light",
-  //     {
-  //       dark: {
-  //         ...require("daisyui/src/theming/themes")["dark"],
-  //         primary: "blue",
-  //         secondary: "teal",
-  //       },
-  //     },
-  //   ],
-  // },
-  // plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      "light",
+      {
+        dark: {
+          ...require("daisyui/src/theming/themes")["dark"],
+          primary: "blue",
+          secondary: "teal",
+        },
+      },
+    ],
+  },
+  plugins: [require("daisyui")],
 };
